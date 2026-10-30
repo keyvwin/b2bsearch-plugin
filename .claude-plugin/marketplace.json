@@ -1,8 +1,57 @@
 {
   "name": "b2bsearch",
-  "owner": { "name": "b2bsearch" },
-  "metadata": { "description": "b2bsearch plugin: B2B people, company, email and jobs data as agent tools", "version": "1.0.0" },
+  "owner": {
+    "name": "b2bsearch"
+  },
+  "metadata": {
+    "description": "b2bsearch plugins: B2B people, company, contact and hiring data as agent tools, paid per row on Apify",
+    "version": "1.1.0"
+  },
   "plugins": [
-    { "name": "b2bsearch", "source": "./", "description": "B2B people, company, email and jobs data as agent tools, paid per row on Apify" }
+    {
+      "name": "b2bsearch",
+      "source": "./",
+      "description": "B2B people, company, email and jobs data as agent tools, paid per row on Apify"
+    },
+    {
+      "name": "full-icp-search",
+      "source": {
+        "source": "github",
+        "repo": "b2bsearch/full-icp-search"
+      },
+      "description": "Full ICP Search: size an ideal customer profile for free, then people and leads with emails, mobile numbers, decision makers, companies and job postings"
+    },
+    {
+      "name": "contact-finder",
+      "source": {
+        "source": "github",
+        "repo": "b2bsearch/contact-finder"
+      },
+      "description": "Contact Finder: emails and phone numbers for people you already have, reverse email lookup, work email by name and domain, bulk CSV enrichment"
+    },
+    {
+      "name": "b2b-leads-finder",
+      "source": {
+        "source": "github",
+        "repo": "b2bsearch/b2b-leads-finder"
+      },
+      "description": "B2B Leads Finder: lead lists with emails and phones, saved-search import by URL, weekly top-ups without repeats"
+    },
+    {
+      "name": "hiring-signals",
+      "source": {
+        "source": "github",
+        "repo": "b2bsearch/hiring-signals"
+      },
+      "description": "Hiring Signals: who is hiring for a role, job postings that mention a technology, decision makers at hiring companies, weekly watch"
+    },
+    {
+      "name": "account-signals",
+      "source": {
+        "source": "github",
+        "repo": "b2bsearch/account-signals"
+      },
+      "description": "Account Signals: new hires and job changes at target accounts, where former customer staff work now, lookalike companies, email format"
+    }
   ]
 }

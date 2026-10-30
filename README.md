@@ -18,6 +18,26 @@ pulls the rows it needs and pays per row through your Apify account.
 Six skills teach the agent the method: size first, cap the spend, keep lists clean,
 report what was skipped. See [skills/](skills/).
 
+## Focused plugins
+
+The same data, split by job. Each one is a separate repo with its own skills and a
+smaller tool list, so the agent picks the right tool faster.
+
+| Plugin | For | Cursor Directory |
+|---|---|---|
+| [Full ICP Search](https://github.com/b2bsearch/full-icp-search) | size an ideal customer profile for free, then people, leads with emails and mobile numbers, decision makers, companies, job postings | [full-icp-search](https://cursor.directory/plugins/full-icp-search) |
+| [Contact Finder](https://github.com/b2bsearch/contact-finder) | emails and phone numbers for people you already have, reverse email lookup, work email by name and domain, bulk CSV enrichment | [contact-finder](https://cursor.directory/plugins/contact-finder) |
+| [B2B Leads Finder](https://github.com/b2bsearch/b2b-leads-finder) | lead lists with emails and phones, saved-search import by URL, weekly top-ups without repeats | [b2b-leads-finder](https://cursor.directory/plugins/b2b-leads-finder) |
+| [Hiring Signals](https://github.com/b2bsearch/hiring-signals) | who is hiring for a role, postings that mention a technology, decision makers at hiring companies | [hiring-signals](https://cursor.directory/plugins/hiring-signals) |
+| [Account Signals](https://github.com/b2bsearch/account-signals) | new hires and job changes at target accounts, where former customer staff work now, lookalike companies | [account-signals](https://cursor.directory/plugins/account-signals) |
+
+In Claude Code all six install from this marketplace:
+
+```bash
+claude plugin marketplace add b2bsearch/b2bsearch-plugin
+claude plugin install contact-finder@b2bsearch
+```
+
 Pricing is per row delivered, printed in each tool's description (people rows from
 $0.95 per 1,000, leads with emails from $1.50 per 1,000, decision makers $3.20 per
 1,000). Nothing is charged per search; counts and previews are free. On the Free Apify
