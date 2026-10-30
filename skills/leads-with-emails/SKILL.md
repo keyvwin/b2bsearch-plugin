@@ -11,8 +11,8 @@ Addresses at earlier employers never count. Each lead also carries the professio
 profile URL and the X, GitHub and Facebook links on record.
 
 Price: from $1.50 per 1,000 leads delivered ($3 on the Free Apify plan). People without
-an email are skipped free. Free plan: up to 100 leads per run, 500 rows a month per
-account. The tool description's price applies if it differs.
+an email are skipped free. Free plan: up to 25 leads per run when an agent starts it (100 from the Apify
+Console), 500 rows a month per account. The tool description's price applies if it differs.
 
 ## Workflow
 

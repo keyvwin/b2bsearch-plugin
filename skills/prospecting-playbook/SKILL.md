@@ -8,7 +8,8 @@ description: Start here for any B2B list, lead, account or market-sizing request
 b2bsearch is a set of Actors on Apify that read one people and company database: 1B+
 professional profiles, 115M companies, 50M+ job postings. Every tool charges per row
 delivered and nothing per search; sizing a segment is free. The user pays Apify; on the
-Free Apify plan each run returns up to 100 rows and the account has 500 free rows a month.
+Free Apify plan each run returns up to 100 rows (25 on people and leads searches started by
+an agent) and the account has 500 free rows a month per Actor. A paid plan lifts the limits.
 
 ## 1. Scope
 

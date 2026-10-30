@@ -33,8 +33,8 @@ The price in the tool description is the one that applies if it differs from thi
    employers: that is where wrong-fit people show up (a "head of sales" list full of
    car dealership staff means an industry filter is missing).
 4. Only then run `mode: "people"` with `maxResults` set to the number the user wants.
-   Default is 500, which is more than most asks. On the Free Apify plan a run returns
-   up to 100 people and the account has 500 free rows a month.
+   Default is 500, which is more than most asks. On the Free Apify plan a run started
+   by an agent returns up to 25 people and the account has 500 free rows a month.
 5. Read the result with `get-dataset-items`. Pass `compact: true` on the run for
    2 KB rows instead of 10 KB.
 

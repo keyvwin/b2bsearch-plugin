@@ -20,8 +20,10 @@ report what was skipped. See [skills/](skills/).
 
 Pricing is per row delivered, printed in each tool's description (people rows from
 $0.95 per 1,000, leads with emails from $1.50 per 1,000, decision makers $3.20 per
-1,000). Nothing is charged per search; counts and previews are free. The Free Apify
-plan includes 500 rows a month.
+1,000). Nothing is charged per search; counts and previews are free. On the Free Apify
+plan each Actor gives an account 500 rows a month and up to 100 rows per run; the
+people and leads searches return up to 25 rows per run when an agent starts them.
+Any paid Apify plan lifts these limits.
 
 ## Install
 

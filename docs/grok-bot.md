@@ -12,7 +12,8 @@ and countries ["nl"], and tell me the number. Counts are free.
 ```
 
 The bot opens an Apify sign-in link; approve it with the Apify account that should pay
-for rows (a free account is enough to start: 500 rows a month). From then on the tools
+for rows (a free account is enough to start: 500 rows a month per Actor, up to 25 rows
+per people or leads search). From then on the tools
 appear in the bot's tool list and `@b2bsearch` is not needed, the bot picks them.
 
 ## Give the bot the method
