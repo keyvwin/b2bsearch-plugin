@@ -1,0 +1,10 @@
+{
+  "name": "b2bsearch",
+  "version": "1.0.0",
+  "description": "b2bsearch for Grok Bot, Cursor and Claude Code: B2B people and company data as agent tools. Count a segment for free, then pull people with live emails, decision makers by website domain, company lists with funding, work emails by name and domain, and job postings as hiring signals. Pay per row on Apify; 500 free rows a month.",
+  "author": { "name": "b2bsearch", "url": "https://apify.com/b2bsearch" },
+  "homepage": "https://apify.com/b2bsearch",
+  "repository": "https://github.com/b2bsearch/b2bsearch-plugin",
+  "license": "MIT",
+  "keywords": ["b2bsearch", "mcp", "b2b", "leads", "prospecting", "email-finder", "jobs", "apify"]
+}

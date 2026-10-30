@@ -1,0 +1,8 @@
+{
+  "name": "b2bsearch",
+  "owner": { "name": "b2bsearch" },
+  "metadata": { "description": "b2bsearch plugin: B2B people, company, email and jobs data as agent tools", "version": "1.0.0" },
+  "plugins": [
+    { "name": "b2bsearch", "source": "./", "description": "B2B people, company, email and jobs data as agent tools, paid per row on Apify" }
+  ]
+}
