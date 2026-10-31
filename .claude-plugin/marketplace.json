@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "b2bsearch plugins: B2B people, company, contact and hiring data as agent tools, paid per row on Apify",
-    "version": "1.1.0"
+    "version": "1.2.0"
   },
   "plugins": [
     {

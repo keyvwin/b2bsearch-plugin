@@ -1,0 +1,1645 @@
+{
+  "about": "Ready-made b2bsearch tasks: tested Apify task inputs grouped by the problem you walk in with. Numbers 1-30 follow the article https://dev.to/kevinhall/30-ready-made-b2b-data-tasks-on-apify-from-lead-lists-to-call-lists-4e21; 31-32 came after it. Inputs are copied from the live task pages; counts are free previews of 2026-10-31. scripts/build-recipes.mjs turns this file into the ready-made-tasks skill and the slash commands of each plugin.",
+  "checked": "2026-10-31",
+  "groups": {
+    "icp": "You have an ICP and no list",
+    "count": "Count before you pay for a single row",
+    "have-people": "You hold profile URLs or emails",
+    "have-companies": "You have a list of companies",
+    "signal": "You want a reason to reach out",
+    "companies": "You need companies, not people",
+    "clean": "You have a mess to clean",
+    "icp-search": "One run for companies and people"
+  },
+  "plugins": {
+    "b2bsearch": {
+      "tasks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "commands": [
+        "b2b-count",
+        "leads",
+        "call-list",
+        "decision-makers",
+        "hiring-now",
+        "new-hires",
+        "crm-bounce-check",
+        "hiring-to-calls",
+        "weekly-topup",
+        "champion-moves",
+        "qualify-signup"
+      ],
+      "skillDescription": "Tested inputs for 32 B2B data jobs on the b2bsearch Actors, each a public Apify task page: lead lists from an ideal customer profile, free market counts, mobile numbers and emails for people you already have, decision makers and teams at a list of companies, hiring and job-change signals, company lists by funding, and cleaning sign-ups and CRM exports. Start from the closest job's input instead of building filters from scratch, run its free count or preview first, state the most the run can cost and run with a spend cap. Use for \"is there a ready task for this\", \"what input should I use\", \"show me an example\", or any b2bsearch request that matches a job in the index."
+    },
+    "full-icp-search": {
+      "tasks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "commands": [
+        "b2b-count",
+        "leads",
+        "call-list",
+        "decision-makers",
+        "hiring-now",
+        "new-hires",
+        "crm-bounce-check",
+        "hiring-to-calls",
+        "weekly-topup",
+        "champion-moves",
+        "qualify-signup"
+      ],
+      "skillDescription": "Tested inputs for 32 B2B data jobs on the b2bsearch Actors, each a public Apify task page: lead lists from an ideal customer profile, free market counts, mobile numbers and emails for people you already have, decision makers and teams at a list of companies, hiring and job-change signals, company lists by funding, recently funded startups with their founders, and cleaning sign-ups and CRM exports. Start from the closest job's input instead of building filters from scratch, run its free count or preview first, state the most the run can cost and run with a spend cap. Use for \"is there a ready task for this\", \"what input should I use\", \"show me an example\", or any ICP, lead or account request that matches a job in the index."
+    },
+    "b2b-leads-finder": {
+      "tasks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "commands": [
+        "b2b-count",
+        "leads",
+        "call-list"
+      ],
+      "skillDescription": "Tested inputs for six lead-list jobs on B2B Leads Finder and Leads with Phones, each a public Apify task page: sales leaders at mid-size US companies, small business owners (product owners excluded), managing directors in Germany in German titles, HR and procurement leaders with a seniority floor, a search rerun from an Apollo URL, and calling lists with mobile numbers. Start from the closest job's input, run the free count first, state the most the run can cost and run with a spend cap. Use for \"leads for X\", \"a list of owners / HR directors / Geschäftsführer\", \"a call list\", \"what filters should I use\"."
+    },
+    "contact-finder": {
+      "tasks": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        28,
+        29,
+        30
+      ],
+      "commands": [
+        "call-list",
+        "crm-bounce-check",
+        "qualify-signup"
+      ],
+      "skillDescription": "Tested inputs for eight contact jobs, each a public Apify task page: mobile numbers from profile URLs or CRM emails, work emails from profile URLs, the CRM contacts whose email will bounce (work_other), personal emails for recruiting, qualifying sign-ups by email, where customer contacts work now, and a mixed CRM export. Start from the closest job's input, replace the placeholders with the user's list, state the most the run can cost (misses are free) and run with a spend cap. Use for \"phone numbers for these profiles\", \"emails for my CRM\", \"which contacts will bounce\", \"who is this sign-up\", \"enrich this CSV\"."
+    },
+    "hiring-signals": {
+      "tasks": [
+        20,
+        24
+      ],
+      "commands": [
+        "hiring-now",
+        "hiring-to-calls",
+        "decision-makers"
+      ],
+      "skillDescription": "Tested inputs for two hiring-signal jobs, each a public Apify task page: companies hiring account executives right now with the sales leaders behind the hire, and employers whose job postings mention a technology in a city (Kubernetes in Berlin). Start from the closest job's input, run the free preview first, state the most the run can cost and run with a spend cap. Use for \"who is hiring X\", \"companies hiring SDRs\", \"which companies use Snowflake / Kubernetes\", \"hiring signal for outbound\"."
+    },
+    "account-signals": {
+      "tasks": [
+        21,
+        22,
+        26,
+        29
+      ],
+      "commands": [
+        "new-hires",
+        "champion-moves",
+        "decision-makers"
+      ],
+      "skillDescription": "Tested inputs for four account-signal jobs, each a public Apify task page: new senior hires at target accounts with the company they came from, former employees of a customer or competitor and where they work now, companies like your best customers, and where your customer contacts work now. Start from the closest job's input, run the free count or preview first, state the most the run can cost and run with a spend cap. Use for \"new hires at these accounts\", \"job changes\", \"champions who moved\", \"lookalike companies\", \"ex-employees of X\"."
+    }
+  },
+  "tasks": [
+    {
+      "n": 1,
+      "group": "icp",
+      "job": "Sales leaders at mid-size US companies",
+      "actor": "b2bsearch/b2b-leads-finder",
+      "taskUrl": "https://apify.com/b2bsearch/b2b-leads-finder/examples/us-sales-leaders-with-emails",
+      "title": "US Sales Leaders with Emails at 50–1,000-Person Companies",
+      "input": {
+        "jobTitles": [
+          "vp sales",
+          "head of sales",
+          "chief revenue officer"
+        ],
+        "countries": [
+          "us"
+        ],
+        "companySizeMin": 50,
+        "companySizeMax": 1000,
+        "maxResults": 100,
+        "emailType": "any"
+      },
+      "problem": "You sell to sales teams and need VPs and heads of sales and CROs with an email that reaches them.",
+      "free": {
+        "kind": "count",
+        "actor": "b2bsearch/people-database-search",
+        "input": {
+          "mode": "count",
+          "titleKeywords": [
+            "vp sales",
+            "head of sales",
+            "chief revenue officer"
+          ],
+          "countries": [
+            "us"
+          ],
+          "employeeCountMin": 50,
+          "employeeCountMax": 1000
+        },
+        "note": "Free. Leads are the share of this count with a contact on record."
+      },
+      "returns": "One row per person: fullName, jobTitle, email with emailType work or personal, company name, domain, size and industry, location, profile URL, phoneOnRecord. People without a live email are skipped free and counted in a note row.",
+      "next": "Mobile numbers for the best rows: task 10. More every week without repeats: excludeDatasets with the earlier run.",
+      "gotcha": "maxPerCompany stops one big employer from filling the list."
+    },
+    {
+      "n": 2,
+      "group": "icp",
+      "job": "Small business owners",
+      "actor": "b2bsearch/b2b-leads-finder",
+      "taskUrl": "https://apify.com/b2bsearch/b2b-leads-finder/examples/small-business-owners-us-with-emails",
+      "title": "Small Business Owners in the US with Emails",
+      "input": {
+        "jobTitles": [
+          "owner",
+          "founder",
+          "ceo"
+        ],
+        "excludeJobTitles": [
+          "product owner",
+          "process owner"
+        ],
+        "countries": [
+          "us"
+        ],
+        "companySizeMin": 1,
+        "companySizeMax": 50,
+        "emailType": "any",
+        "maxResults": 100
+      },
+      "problem": "You sell to small businesses and need the owner, founder or CEO with an email.",
+      "free": {
+        "kind": "count",
+        "actor": "b2bsearch/people-database-search",
+        "input": {
+          "mode": "count",
+          "titleKeywords": [
+            "owner",
+            "founder",
+            "ceo"
+          ],
+          "excludeTitleKeywords": [
+            "product owner",
+            "process owner"
+          ],
+          "countries": [
+            "us"
+          ],
+          "employeeCountMin": 1,
+          "employeeCountMax": 50
+        },
+        "note": "Free. Leads are the share of this count with a contact on record."
+      },
+      "returns": "Same rows as task 1, at companies of 1 to 50 people.",
+      "next": "Narrow to a state, city or industry with cities or industries; mobile numbers: task 6.",
+      "gotcha": "\"owner\" also matches product owners and process owners: keep excludeJobTitles."
+    },
+    {
+      "n": 3,
+      "group": "icp",
+      "job": "Managing directors in Germany",
+      "actor": "b2bsearch/b2b-leads-finder",
+      "taskUrl": "https://apify.com/b2bsearch/b2b-leads-finder/examples/geschaeftsfuehrer-germany-with-emails",
+      "title": "Managing Directors (Geschäftsführer) in Germany with Emails",
+      "input": {
+        "jobTitles": [
+          "geschäftsführer",
+          "inhaber",
+          "managing director",
+          "ceo"
+        ],
+        "countries": [
+          "de"
+        ],
+        "companySizeMin": 10,
+        "companySizeMax": 250,
+        "emailType": "any",
+        "maxResults": 100
+      },
+      "problem": "You sell to German SMEs and need the managing director.",
+      "free": {
+        "kind": "count",
+        "actor": "b2bsearch/people-database-search",
+        "input": {
+          "mode": "count",
+          "titleKeywords": [
+            "geschäftsführer",
+            "inhaber",
+            "managing director",
+            "ceo"
+          ],
+          "countries": [
+            "de"
+          ],
+          "employeeCountMin": 10,
+          "employeeCountMax": 250
+        },
+        "note": "Free. Leads are the share of this count with a contact on record."
+      },
+      "returns": "Same rows as task 1, at German companies of 10 to 250 people.",
+      "next": "Austria and Switzerland: countries at, ch (or countryGroups dach).",
+      "gotcha": "Local markets write titles in the local language: keep geschäftsführer and inhaber next to the English titles."
+    },
+    {
+      "n": 4,
+      "group": "icp",
+      "job": "HR and talent leaders, or procurement managers",
+      "actor": "b2bsearch/b2b-leads-finder",
+      "taskUrl": "https://apify.com/b2bsearch/b2b-leads-finder/examples/hr-and-talent-leaders-with-work-emails",
+      "title": "HR and Talent Acquisition Leaders with Work Emails",
+      "input": {
+        "jobTitles": [
+          "head of hr",
+          "hr director",
+          "hr manager",
+          "head of people",
+          "vp people",
+          "chief people officer",
+          "talent acquisition"
+        ],
+        "seniority": [
+          "manager",
+          "director",
+          "vp",
+          "cxo"
+        ],
+        "countries": [
+          "us"
+        ],
+        "companySizeMin": 200,
+        "companySizeMax": 2000,
+        "emailType": "work",
+        "maxResults": 100
+      },
+      "problem": "You sell to a department (HR, people, talent acquisition, procurement) and need its leaders.",
+      "free": {
+        "kind": "count",
+        "actor": "b2bsearch/people-database-search",
+        "input": {
+          "mode": "count",
+          "titleKeywords": [
+            "head of hr",
+            "hr director",
+            "hr manager",
+            "head of people",
+            "vp people",
+            "chief people officer",
+            "talent acquisition"
+          ],
+          "seniority": [
+            "manager",
+            "director",
+            "vp",
+            "cxo"
+          ],
+          "countries": [
+            "us"
+          ],
+          "employeeCountMin": 200,
+          "employeeCountMax": 2000
+        },
+        "note": "Free. Leads are the share of this count with a contact on record."
+      },
+      "returns": "Same rows as task 1. With emailType work every address is at the person's current company.",
+      "next": "Leave out existing customers with excludeCompanyDomains.",
+      "gotcha": "Keep the seniority floor (manager and up): titles alone bring specialists and interns. For procurement, search procurement, purchasing and sourcing, not supply chain.",
+      "also": [
+        {
+          "actor": "b2bsearch/b2b-leads-finder",
+          "taskUrl": "https://apify.com/b2bsearch/b2b-leads-finder/examples/procurement-managers-manufacturing-with-emails",
+          "title": "Procurement Managers at Manufacturing Companies with Emails",
+          "input": {
+            "jobTitles": [
+              "procurement",
+              "purchasing",
+              "sourcing"
+            ],
+            "seniority": [
+              "manager",
+              "director",
+              "vp",
+              "cxo"
+            ],
+            "industries": [
+              "Manufacturing"
+            ],
+            "countries": [
+              "us"
+            ],
+            "emailType": "any",
+            "maxResults": 100
+          }
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "group": "icp",
+      "job": "Rerun a search built in Apollo",
+      "actor": "b2bsearch/b2b-leads-finder",
+      "taskUrl": "https://apify.com/b2bsearch/b2b-leads-finder/examples/apollo-search-url-to-leads",
+      "title": "Apollo Search URL to Leads with Emails, No Apollo Credits",
+      "input": {
+        "apolloUrl": "https://app.apollo.io/#/people?page=1&personTitles[]=founder&personTitles[]=ceo&personLocations[]=United%20States&organizationNumEmployeesRanges[]=11%2C20&organizationNumEmployeesRanges[]=21%2C50",
+        "emailType": "any",
+        "maxResults": 100
+      },
+      "problem": "You already built the people search in Apollo and want the same people with emails, without a seat or export credits.",
+      "free": {
+        "kind": "sample",
+        "note": "No free count for a pasted URL: run maxResults 25 first and check the rows."
+      },
+      "returns": "Same rows as task 1, from the filters read out of the pasted URL.",
+      "next": "Weekly top-up of the same search with excludeDatasets.",
+      "gotcha": "Paste the people-search results URL into apolloUrl; filters Apollo has and the database does not are reported in a note row."
+    },
+    {
+      "n": 6,
+      "group": "icp",
+      "job": "People you can call, not just email",
+      "actor": "b2bsearch/b2b-leads-with-phones",
+      "taskUrl": "https://apify.com/b2bsearch/b2b-leads-with-phones/examples/us-sales-leaders-mobile-numbers",
+      "title": "US Sales Leaders with Mobile Numbers and Emails",
+      "input": {
+        "jobTitles": [
+          "vp sales",
+          "head of sales"
+        ],
+        "countries": [
+          "us"
+        ],
+        "companySizeMin": 50,
+        "companySizeMax": 1000,
+        "maxResults": 50
+      },
+      "problem": "You need a cold calling list: every row with a verified mobile number and a live email.",
+      "free": {
+        "kind": "count",
+        "actor": "b2bsearch/people-database-search",
+        "input": {
+          "mode": "count",
+          "titleKeywords": [
+            "vp sales",
+            "head of sales"
+          ],
+          "countries": [
+            "us"
+          ],
+          "employeeCountMin": 50,
+          "employeeCountMax": 1000
+        },
+        "note": "Free. Leads are the share of this count with a contact on record."
+      },
+      "returns": "phone in E.164, every number in phones, the email, title and company. A skipped_no_contact note row counts people without a mobile or an email; those are free.",
+      "next": "Load the rows into a dialer; numbers for people you already have: task 10.",
+      "gotcha": "Numbers are US-centric: about 1 in 5 US sales leaders has both a mobile and a live email (measured 2026-10-14).",
+      "also": [
+        {
+          "actor": "b2bsearch/b2b-leads-with-phones",
+          "taskUrl": "https://apify.com/b2bsearch/b2b-leads-with-phones/examples/real-estate-agents-mobile-numbers",
+          "title": "Real Estate Agents and Brokers in the US with Mobile Numbers",
+          "input": {
+            "jobTitles": [
+              "realtor",
+              "real estate agent",
+              "real estate broker",
+              "broker associate"
+            ],
+            "industries": [
+              "Real Estate"
+            ],
+            "countries": [
+              "us"
+            ],
+            "maxResults": 50
+          }
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "group": "count",
+      "job": "How many software engineers per country",
+      "actor": "b2bsearch/people-database-search",
+      "taskUrl": "https://apify.com/b2bsearch/people-database-search/examples/software-engineers-by-country-free-count",
+      "title": "How Many Software Engineers per Country? Free Count",
+      "input": {
+        "mode": "count",
+        "titleKeywords": [
+          "software engineer",
+          "software developer"
+        ],
+        "segments": [
+          {
+            "name": "United States",
+            "countries": [
+              "us"
+            ]
+          },
+          {
+            "name": "India",
+            "countries": [
+              "in"
+            ]
+          },
+          {
+            "name": "United Kingdom",
+            "countries": [
+              "gb"
+            ]
+          },
+          {
+            "name": "Germany",
+            "countries": [
+              "de"
+            ]
+          },
+          {
+            "name": "Canada",
+            "countries": [
+              "ca"
+            ]
+          }
+        ]
+      },
+      "problem": "You need the size of a market before you buy a list.",
+      "free": {
+        "kind": "free",
+        "note": "The task itself is a free count."
+      },
+      "returns": "One row per segment with _total. On 2026-10-31: UK 185,825, Canada 166,391, Germany 116,071; the US and India stop at the 1,000,000 ceiling.",
+      "next": "Rows: switch mode to people. Lists with emails: task 1.",
+      "gotcha": "A count at the 1,000,000 ceiling means narrow before you pull.",
+      "also": [
+        {
+          "actor": "b2bsearch/people-database-search",
+          "taskUrl": "https://apify.com/b2bsearch/people-database-search/examples/professionals-between-jobs",
+          "title": "Find Professionals Between Jobs: Open-to-Work Talent",
+          "input": {
+            "mode": "people",
+            "countries": [
+              "us"
+            ],
+            "onlyBetweenJobs": true,
+            "pastTitleKeywords": [
+              "product manager"
+            ],
+            "maxResults": 100,
+            "profileDetail": "row"
+          }
+        },
+        {
+          "actor": "b2bsearch/people-database-search",
+          "taskUrl": "https://apify.com/b2bsearch/people-database-search/examples/early-career-software-engineers",
+          "title": "Early-Career Software Engineers Who Started After 2020",
+          "input": {
+            "mode": "people",
+            "countries": [
+              "us"
+            ],
+            "titleKeywords": [
+              "software engineer"
+            ],
+            "careerStartYearMin": 2021,
+            "maxResults": 100,
+            "profileDetail": "row"
+          }
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "group": "count",
+      "job": "Compare sales team size across companies",
+      "actor": "b2bsearch/people-database-search",
+      "taskUrl": "https://apify.com/b2bsearch/people-database-search/examples/sales-team-size-by-company-free-count",
+      "title": "Compare Sales Team Size Across Companies for Free",
+      "input": {
+        "mode": "count",
+        "titleKeywords": [
+          "account executive",
+          "sales development",
+          "business development",
+          "sales manager"
+        ],
+        "segments": [
+          {
+            "name": "Salesforce",
+            "companyDomains": [
+              "salesforce.com"
+            ]
+          },
+          {
+            "name": "HubSpot",
+            "companyDomains": [
+              "hubspot.com"
+            ]
+          },
+          {
+            "name": "Zendesk",
+            "companyDomains": [
+              "zendesk.com"
+            ]
+          },
+          {
+            "name": "Freshworks",
+            "companyDomains": [
+              "freshworks.com"
+            ]
+          },
+          {
+            "name": "Gong",
+            "companyDomains": [
+              "gong.io"
+            ]
+          }
+        ]
+      },
+      "problem": "You size a territory or need a competitor slide: how many salespeople each company has.",
+      "free": {
+        "kind": "free",
+        "note": "The task itself is a free count."
+      },
+      "returns": "One row per company domain with _total. On 2026-10-31: Salesforce 20,484, HubSpot 3,022, Zendesk 1,456.",
+      "next": "The people themselves with emails: task 1 with companyDomains."
+    },
+    {
+      "n": 9,
+      "group": "count",
+      "job": "Count a Sales Navigator search before exporting it",
+      "actor": "b2bsearch/sales-navigator-search",
+      "taskUrl": "https://apify.com/b2bsearch/sales-navigator-search/examples/count-sales-navigator-search-free",
+      "title": "Count a Sales Navigator Search for Free Before Exporting",
+      "input": {
+        "salesNavigatorUrl": "https://www.linkedin.com/sales/search/people?query=(recentSearchParam%3A(doLogHistory%3Atrue)%2Cfilters%3AList((type%3ACURRENT_TITLE%2Cvalues%3AList((text%3AHead%2520of%2520Growth%2CselectionType%3AINCLUDED)))%2C(type%3AREGION%2Cvalues%3AList((id%3A103644278%2Ctext%3AUnited%2520States%2CselectionType%3AINCLUDED)))%2C(type%3ACOMPANY_HEADCOUNT%2Cvalues%3AList((id%3AD%2Ctext%3A51-200%2CselectionType%3AINCLUDED)%2C(id%3AE%2Ctext%3A201-500%2CselectionType%3AINCLUDED)))))",
+        "mode": "count"
+      },
+      "problem": "You built a lead search in Sales Navigator and want the people without a seat or cookies.",
+      "free": {
+        "kind": "free",
+        "note": "The task itself is a free count (mode count)."
+      },
+      "returns": "The count of matching people (the sample US heads of growth search: 1,278). The export task returns the people as rows.",
+      "next": "Export with the same URL; emails and phones with profileDetail contacts.",
+      "gotcha": "Paste the lead-search URL as it is in the address bar.",
+      "also": [
+        {
+          "actor": "b2bsearch/sales-navigator-search",
+          "taskUrl": "https://apify.com/b2bsearch/sales-navigator-search/examples/head-of-growth-us-export",
+          "title": "Export a Sales Navigator Search: US Heads of Growth",
+          "input": {
+            "salesNavigatorUrl": "https://www.linkedin.com/sales/search/people?query=(recentSearchParam%3A(doLogHistory%3Atrue)%2Cfilters%3AList((type%3ACURRENT_TITLE%2Cvalues%3AList((text%3AHead%2520of%2520Growth%2CselectionType%3AINCLUDED)))%2C(type%3AREGION%2Cvalues%3AList((id%3A103644278%2Ctext%3AUnited%2520States%2CselectionType%3AINCLUDED)))%2C(type%3ACOMPANY_HEADCOUNT%2Cvalues%3AList((id%3AD%2Ctext%3A51-200%2CselectionType%3AINCLUDED)%2C(id%3AE%2Ctext%3A201-500%2CselectionType%3AINCLUDED)))))",
+            "mode": "people",
+            "maxResults": 100,
+            "profileDetail": "row"
+          }
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "group": "have-people",
+      "job": "Profile URLs to mobile numbers",
+      "actor": "b2bsearch/linkedin-to-phone",
+      "taskUrl": "https://apify.com/b2bsearch/linkedin-to-phone/examples/linkedin-urls-to-mobile-numbers",
+      "title": "Find Mobile Numbers from LinkedIn Profile URLs in Bulk",
+      "input": {
+        "profileUrls": [
+          "https://www.linkedin.com/in/jane-doe-example",
+          "https://www.linkedin.com/in/john-smith-example",
+          "https://www.linkedin.com/in/maria-garcia-example"
+        ]
+      },
+      "problem": "You have profile URLs (or emails, or names with a company) and need mobile numbers.",
+      "free": {
+        "kind": "lookup",
+        "note": "No count: the cost is at most the list length times the price per number found; misses are free."
+      },
+      "returns": "A found row has primaryPhone, all numbers in phones, phoneCount, name, title, company and location. no_phone, not_found and profile_removed are free rows that say why.",
+      "next": "Emails for the same people: task 12.",
+      "gotcha": "The field takes profile links, email addresses and \"Name, domain\" lines mixed in one list. Coverage is US-centric: about 1 in 4 US decision makers has a verified mobile on record."
+    },
+    {
+      "n": 11,
+      "group": "have-people",
+      "job": "CRM contacts with an email and no number",
+      "actor": "b2bsearch/linkedin-to-phone",
+      "taskUrl": "https://apify.com/b2bsearch/linkedin-to-phone/examples/crm-emails-to-mobile-numbers",
+      "title": "Add Mobile Numbers to CRM Contacts by Email Address",
+      "input": {
+        "profileUrls": [
+          "jane.example@example.com",
+          "john.example@example.org",
+          "maria.example@example.net"
+        ]
+      },
+      "problem": "Your CRM has emails and no phone numbers.",
+      "free": {
+        "kind": "lookup",
+        "note": "No count: at most the list length times the price per number found; misses are free."
+      },
+      "returns": "Same rows as task 10, matched by email.",
+      "next": "Run 100 contacts first to see the rate for your list.",
+      "gotcha": "Role mailboxes such as info@ or sales@ belong to no person and rarely match."
+    },
+    {
+      "n": 12,
+      "group": "have-people",
+      "job": "Profile URLs to work emails",
+      "actor": "b2bsearch/linkedin-email-finder",
+      "taskUrl": "https://apify.com/b2bsearch/linkedin-email-finder/examples/linkedin-urls-to-work-emails",
+      "title": "Find Work Emails from LinkedIn Profile URLs in Bulk",
+      "input": {
+        "profileUrls": [
+          "https://www.linkedin.com/in/jane-doe-example",
+          "https://www.linkedin.com/in/john-smith-example",
+          "https://www.linkedin.com/in/maria-garcia-example"
+        ],
+        "includePersonalEmails": false
+      },
+      "problem": "You have profile URLs and need the work email of each person.",
+      "free": {
+        "kind": "lookup",
+        "note": "No count: at most the list length times the price per email found; profiles with nothing are free."
+      },
+      "returns": "email, every company address on record in workEmails, and emailType: work_current is an address at today's employer, work_other one from somewhere else, usually an old job.",
+      "next": "Keep work_current for outreach; read work_other as task 13 does.",
+      "gotcha": "Addresses come from the person's record, never from a first.last guess."
+    },
+    {
+      "n": 13,
+      "group": "have-people",
+      "job": "Find the CRM contacts who will bounce",
+      "actor": "b2bsearch/linkedin-email-finder",
+      "taskUrl": "https://apify.com/b2bsearch/linkedin-email-finder/examples/crm-contacts-with-past-employer-emails",
+      "title": "Spot CRM Contacts Whose Email Is from a Past Employer",
+      "input": {
+        "profileUrls": [
+          "https://www.linkedin.com/in/jane-doe-example",
+          "https://www.linkedin.com/in/john-smith-example",
+          "https://www.linkedin.com/in/maria-garcia-example"
+        ],
+        "includePersonalEmails": false
+      },
+      "problem": "Your sequences bounce and you suspect contacts changed jobs.",
+      "free": {
+        "kind": "lookup",
+        "note": "No count: at most the list length times the price per email found."
+      },
+      "returns": "The same rows as task 12. Every work_other row is a contact whose CRM address probably points at a former employer.",
+      "next": "Fix those before the next sequence; where they work now: task 29.",
+      "gotcha": "work_other rows cost less than work_current; profiles with nothing on record are free."
+    },
+    {
+      "n": 14,
+      "group": "have-people",
+      "job": "Personal emails for recruiting",
+      "actor": "b2bsearch/linkedin-email-finder",
+      "taskUrl": "https://apify.com/b2bsearch/linkedin-email-finder/examples/personal-emails-for-recruiting",
+      "title": "Personal Emails from LinkedIn Profiles for Recruiting",
+      "input": {
+        "profileUrls": [
+          "https://www.linkedin.com/in/jane-doe-example",
+          "https://www.linkedin.com/in/john-smith-example",
+          "https://www.linkedin.com/in/maria-garcia-example"
+        ],
+        "includePersonalEmails": true
+      },
+      "problem": "You recruit and should not write to a candidate at their work address.",
+      "free": {
+        "kind": "lookup",
+        "note": "No count: at most the list length times the price per email found."
+      },
+      "returns": "Same rows as task 12 plus gmail, outlook and other personal addresses.",
+      "next": "Candidates first: People Search with mode people (task 7).",
+      "gotcha": "includePersonalEmails true is what adds the personal addresses."
+    },
+    {
+      "n": 15,
+      "group": "have-companies",
+      "job": "The leadership team of one company",
+      "actor": "b2bsearch/company-employees",
+      "taskUrl": "https://apify.com/b2bsearch/company-employees/examples/leadership-team-by-company-domain",
+      "title": "Map a Company's Leadership Team: C-Level, VPs, Directors",
+      "input": {
+        "companies": [
+          "hubspot.com"
+        ],
+        "roles": [
+          "cxo",
+          "vp",
+          "director"
+        ],
+        "titleExcludes": [
+          "assistant",
+          "office of",
+          "executive operations",
+          "chief of staff"
+        ],
+        "excludeLowSignal": true,
+        "maxRows": 200
+      },
+      "problem": "You research an account and need its C-level, VPs and directors.",
+      "free": {
+        "kind": "count",
+        "actor": "b2bsearch/people-database-search",
+        "input": {
+          "mode": "count",
+          "companyDomains": [
+            "hubspot.com"
+          ],
+          "seniority": [
+            "cxo",
+            "vp",
+            "director"
+          ]
+        },
+        "note": "Free. Leads are the share of this count with a contact on record."
+      },
+      "returns": "fullName, title, seniority, location, positionStartYear, hasWorkEmail, hasPersonalEmail and the profile link.",
+      "next": "Emails for the people you pick: task 16 (contacts tier) or task 12.",
+      "gotcha": "Keep titleExcludes: executive assistants carry titles like \"Office of the CEO\"."
+    },
+    {
+      "n": 16,
+      "group": "have-companies",
+      "job": "Every employee, then contacts only where needed",
+      "actor": "b2bsearch/company-employees",
+      "taskUrl": "https://apify.com/b2bsearch/company-employees/examples/all-employees-by-company-domain",
+      "title": "List All Employees of a Company by Its Website Domain",
+      "input": {
+        "companies": [
+          "stripe.com"
+        ],
+        "profileDetail": "roster",
+        "maxRows": 1000
+      },
+      "problem": "You need a company's whole roster, and contacts only for some of it.",
+      "free": {
+        "kind": "count",
+        "actor": "b2bsearch/people-database-search",
+        "input": {
+          "mode": "count",
+          "companyDomains": [
+            "stripe.com"
+          ]
+        },
+        "note": "Free. Leads are the share of this count with a contact on record."
+      },
+      "returns": "Roster rows (light tier). The contacts task returns profiles with emails and phones and skips anyone without an address for free.",
+      "next": "Contacts for a shortlist only: the contacts task with mustHave email.",
+      "gotcha": "profileDetail roster is the cheap tier; switch to contacts only for the people you will write to.",
+      "also": [
+        {
+          "actor": "b2bsearch/company-employees",
+          "taskUrl": "https://apify.com/b2bsearch/company-employees/examples/employee-emails-by-company-domain",
+          "title": "Employee Emails and Phones at a Company by Domain",
+          "input": {
+            "companies": [
+              "gong.io"
+            ],
+            "roles": [
+              "director",
+              "vp",
+              "cxo"
+            ],
+            "profileDetail": "contacts",
+            "mustHave": [
+              "email"
+            ],
+            "maxRows": 100
+          }
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "group": "have-companies",
+      "job": "Engineers at a company you recruit from",
+      "actor": "b2bsearch/company-employees",
+      "taskUrl": "https://apify.com/b2bsearch/company-employees/examples/engineers-at-a-company",
+      "title": "Find Software Engineers Working at a Specific Company",
+      "input": {
+        "companies": [
+          "datadoghq.com"
+        ],
+        "titleContains": [
+          "engineer",
+          "developer"
+        ],
+        "titleExcludes": [
+          "sales engineer",
+          "solutions engineer"
+        ],
+        "excludeLowSignal": true,
+        "maxRows": 500
+      },
+      "problem": "You recruit engineers from one company.",
+      "free": {
+        "kind": "count",
+        "actor": "b2bsearch/people-database-search",
+        "input": {
+          "mode": "count",
+          "companyDomains": [
+            "datadoghq.com"
+          ],
+          "titleKeywords": [
+            "engineer",
+            "developer"
+          ],
+          "excludeTitleKeywords": [
+            "sales engineer",
+            "solutions engineer"
+          ]
+        },
+        "note": "Free. Leads are the share of this count with a contact on record."
+      },
+      "returns": "Roster rows with title, seniority, time in role and the profile link.",
+      "next": "Personal emails for the shortlist: task 14.",
+      "gotcha": "titleExcludes drops sales engineers and solutions engineers."
+    },
+    {
+      "n": 18,
+      "group": "have-companies",
+      "job": "The CEO and founders of a list of companies",
+      "actor": "b2bsearch/domain-to-decision-makers",
+      "taskUrl": "https://apify.com/b2bsearch/domain-to-decision-makers/examples/ceo-and-founders-by-company-domain",
+      "title": "Find the CEO and Founders of Any Company by Domain",
+      "input": {
+        "domains": [
+          "linear.app",
+          "vercel.com",
+          "supabase.com",
+          "posthog.com",
+          "retool.com"
+        ],
+        "roles": [
+          "founder",
+          "cxo"
+        ],
+        "maxPerCompany": 3
+      },
+      "problem": "You have target domains and need the person at the top of each, with an email.",
+      "free": {
+        "kind": "lookup",
+        "note": "No count: at most domains times maxPerCompany people at the per-person price."
+      },
+      "returns": "Rows ranked per company in _rank: title, seniority, profile link and an email that reaches the person today (company domain first, else personal, never a past employer).",
+      "next": "Mobile numbers for the ones worth a call: task 10 with the profile links.",
+      "gotcha": "Every person delivered is charged, with or without an email; domains with nobody found are free.",
+      "also": [
+        {
+          "actor": "b2bsearch/domain-to-decision-makers",
+          "taskUrl": "https://apify.com/b2bsearch/domain-to-decision-makers/examples/marketing-leaders-by-company-domain",
+          "title": "Marketing Decision Makers at a List of Companies",
+          "input": {
+            "domains": [
+              "asana.com",
+              "miro.com",
+              "canva.com",
+              "calendly.com",
+              "loom.com"
+            ],
+            "roles": [
+              "cxo",
+              "vp",
+              "director"
+            ],
+            "titleKeywords": [
+              "marketing",
+              "growth",
+              "demand"
+            ],
+            "maxPerCompany": 3
+          }
+        },
+        {
+          "actor": "b2bsearch/domain-to-decision-makers",
+          "taskUrl": "https://apify.com/b2bsearch/domain-to-decision-makers/examples/cto-and-engineering-leaders-by-domain",
+          "title": "CTOs and Engineering Leaders at a List of Companies",
+          "input": {
+            "domains": [
+              "netlify.com",
+              "sentry.io",
+              "grafana.com",
+              "clickup.com",
+              "airtable.com"
+            ],
+            "roles": [
+              "cxo",
+              "vp",
+              "director"
+            ],
+            "titleKeywords": [
+              "cto",
+              "chief technology officer",
+              "engineering"
+            ],
+            "maxPerCompany": 3
+          }
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "group": "have-companies",
+      "job": "The email format of a domain",
+      "actor": "b2bsearch/company-email-format-finder",
+      "taskUrl": "https://apify.com/b2bsearch/company-email-format-finder/examples/email-format-of-company-domains",
+      "title": "Find the Email Format of Any Company by Domain",
+      "input": {
+        "domains": [
+          "stripe.com",
+          "n26.com",
+          "linear.app",
+          "hubspot.com",
+          "gong.io"
+        ],
+        "sampleLimit": 200
+      },
+      "problem": "You have a name and a company and need to know how the company writes its addresses.",
+      "free": {
+        "kind": "lookup",
+        "note": "No count: at most the number of domains times the price per confirmed domain."
+      },
+      "returns": "pattern such as first.last, how many real addresses confirm it, how strongly they agree, and masked samples.",
+      "next": "The real address of a named person: work email by name and domain.",
+      "gotcha": "Domains without evidence are free."
+    },
+    {
+      "n": 20,
+      "group": "signal",
+      "job": "Companies hiring account executives right now",
+      "actor": "b2bsearch/hiring-companies-finder",
+      "taskUrl": "https://apify.com/b2bsearch/hiring-companies-finder/examples/companies-hiring-account-executives-us",
+      "title": "Companies Hiring Account Executives in the US Now",
+      "input": {
+        "jobTitles": [
+          "account executive"
+        ],
+        "locations": [
+          "United States"
+        ],
+        "postedLimit": "month",
+        "maxCompanies": 25,
+        "decisionMakers": true,
+        "decisionMakerTitleKeywords": [
+          "chief revenue",
+          "chief sales",
+          "head of sales",
+          "vp sales",
+          "vice president of sales",
+          "vp of sales",
+          "sales director"
+        ],
+        "decisionMakersPerCompany": 2,
+        "excludeAgencies": true
+      },
+      "problem": "You sell to teams that are growing: who is hiring for a role right now.",
+      "free": {
+        "kind": "preview",
+        "actor": "b2bsearch/hiring-companies-finder",
+        "input": {
+          "jobTitles": [
+            "account executive"
+          ],
+          "locations": [
+            "United States"
+          ],
+          "postedLimit": "month",
+          "excludeAgencies": true,
+          "previewOnly": true
+        },
+        "note": "Free. On 2026-10-31: 3,344 employers with 12,279 matching postings in the last month."
+      },
+      "returns": "One company row each with matchingJobs, job titles, jobs30d and jobs90d (hiring pace) and the company card; with decisionMakers on, the people who own the hire follow as rows of _type decision_maker.",
+      "next": "Mobile numbers for the decision makers: task 10 with their profile links.",
+      "gotcha": "Keep excludeAgencies. Decision-maker titles are matched as written, so list them (chief revenue, head of sales, vp sales); a bare \"sales\" also matches Salesforce.",
+      "also": [
+        {
+          "actor": "b2bsearch/hiring-companies-finder",
+          "taskUrl": "https://apify.com/b2bsearch/hiring-companies-finder/examples/companies-hiring-engineers-germany-with-ctos",
+          "title": "Companies Hiring Software Engineers in Germany, with CTOs",
+          "input": {
+            "jobTitles": [
+              "software engineer",
+              "software developer"
+            ],
+            "locations": [
+              "Germany"
+            ],
+            "postedLimit": "month",
+            "maxCompanies": 25,
+            "decisionMakers": true,
+            "decisionMakerRoles": [
+              "founder",
+              "cxo",
+              "vp"
+            ],
+            "decisionMakerTitleKeywords": [
+              "cto",
+              "technology",
+              "engineering",
+              "founder"
+            ],
+            "decisionMakersPerCompany": 1,
+            "excludeAgencies": true
+          }
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "group": "signal",
+      "job": "New senior hires at your target accounts",
+      "actor": "b2bsearch/new-hires-finder",
+      "taskUrl": "https://apify.com/b2bsearch/new-hires-finder/examples/new-hires-at-target-accounts",
+      "title": "New Senior Hires at Your Target Accounts This Year",
+      "input": {
+        "companyDomains": [
+          "hubspot.com",
+          "zendesk.com",
+          "asana.com",
+          "atlassian.com",
+          "monday.com"
+        ],
+        "sinceMonths": 12,
+        "seniority": [
+          "director",
+          "vp",
+          "cxo"
+        ],
+        "maxResults": 100,
+        "maxPerCompany": 20
+      },
+      "problem": "New leaders pick vendors in their first months: who joined your target accounts.",
+      "free": {
+        "kind": "count",
+        "actor": "b2bsearch/people-database-search",
+        "input": {
+          "mode": "count",
+          "companyDomains": [
+            "hubspot.com",
+            "zendesk.com",
+            "asana.com",
+            "atlassian.com",
+            "monday.com"
+          ],
+          "seniority": [
+            "director",
+            "vp",
+            "cxo"
+          ],
+          "currentRoleStartedAfterDate": "2025-11"
+        },
+        "note": "Free. Leads are the share of this count with a contact on record."
+      },
+      "returns": "startedAt, the new title, previousCompany and previousTitle (the opening line of the email) and the profile link.",
+      "next": "Emails for the new hires: task 12 with their profile links.",
+      "gotcha": "Start dates are dense through 2025 and thinner for the most recent months, so look back 12 months."
+    },
+    {
+      "n": 22,
+      "group": "signal",
+      "job": "Former employees and where they are now",
+      "actor": "b2bsearch/former-employees-finder",
+      "taskUrl": "https://apify.com/b2bsearch/former-employees-finder/examples/former-employees-of-a-company",
+      "title": "Find Former Employees of a Company and Where They Work Now",
+      "input": {
+        "companyDomains": [
+          "hubspot.com"
+        ],
+        "previewOnly": false,
+        "countries": [
+          "us"
+        ],
+        "leftAfterYear": 2024,
+        "maxResults": 100
+      },
+      "problem": "Point it at a customer for champions who moved, at a competitor for people who already know the problem.",
+      "free": {
+        "kind": "preview",
+        "actor": "b2bsearch/former-employees-finder",
+        "input": {
+          "companyDomains": [
+            "hubspot.com"
+          ],
+          "countries": [
+            "us"
+          ],
+          "leftAfterYear": 2024,
+          "previewOnly": true
+        },
+        "note": "Free count of the alumni."
+      },
+      "returns": "currentCompany, currentTitle, currentRoleStartYear and the profile link of each former employee.",
+      "next": "Work emails at the new company: task 12, keep work_current.",
+      "gotcha": "leftAfterYear keeps it recent."
+    },
+    {
+      "n": 23,
+      "group": "signal",
+      "job": "New VPs of sales since last October",
+      "actor": "b2bsearch/people-database-search",
+      "taskUrl": "https://apify.com/b2bsearch/people-database-search/examples/new-sales-leaders-since-october-2025",
+      "title": "New VPs and Heads of Sales Who Started Since October 2025",
+      "input": {
+        "mode": "people",
+        "countries": [
+          "us"
+        ],
+        "titleKeywords": [
+          "vp sales",
+          "head of sales",
+          "vice president of sales"
+        ],
+        "currentRoleStartedAfterDate": "2025-10",
+        "maxResults": 100,
+        "profileDetail": "row"
+      },
+      "problem": "You want people who just started a role: new CFOs, new heads of people, new anything.",
+      "free": {
+        "kind": "count",
+        "actor": "b2bsearch/people-database-search",
+        "input": {
+          "mode": "count",
+          "countries": [
+            "us"
+          ],
+          "titleKeywords": [
+            "vp sales",
+            "head of sales",
+            "vice president of sales"
+          ],
+          "currentRoleStartedAfterDate": "2025-10"
+        },
+        "note": "Free. Leads are the share of this count with a contact on record."
+      },
+      "returns": "People rows with title, employer and the start of the current role. On 2026-10-31: 5,870 US sales leaders started since October 2025.",
+      "next": "Emails: task 1 with the same titles.",
+      "gotcha": "currentRoleStartedAfterDate takes a month, YYYY-MM."
+    },
+    {
+      "n": 24,
+      "group": "signal",
+      "job": "Who hires for a technology in a city",
+      "actor": "b2bsearch/linkedin-job-search-api",
+      "taskUrl": "https://apify.com/b2bsearch/linkedin-job-search-api/examples/kubernetes-jobs-berlin-hiring-companies",
+      "title": "Companies Hiring for Kubernetes Skills in Berlin",
+      "input": {
+        "titleSearch": [
+          "devops engineer",
+          "platform engineer",
+          "site reliability engineer",
+          "cloud engineer"
+        ],
+        "descriptionSearch": [
+          "kubernetes"
+        ],
+        "locationSearch": [
+          "Berlin, Germany"
+        ],
+        "timeRange": "30d",
+        "removeAgency": true,
+        "limit": 100
+      },
+      "problem": "You sell to teams that use a technology: find it in the job descriptions.",
+      "free": {
+        "kind": "preview",
+        "actor": "b2bsearch/linkedin-job-search-api",
+        "input": {
+          "titleSearch": [
+            "devops engineer",
+            "platform engineer",
+            "site reliability engineer",
+            "cloud engineer"
+          ],
+          "descriptionSearch": [
+            "kubernetes"
+          ],
+          "locationSearch": [
+            "Berlin, Germany"
+          ],
+          "timeRange": "30d",
+          "removeAgency": true,
+          "previewOnly": true
+        },
+        "note": "Free count of postings and employers."
+      },
+      "returns": "Job rows with the employer card and the hiring signal; the free preview counts postings and employers.",
+      "next": "Decision makers at those employers: task 18 with their domains.",
+      "gotcha": "Write the city with its country (\"Berlin, Germany\"); a bare \"Berlin\" is refused. The description search reads at most 500 postings, so name titles and a city. Job data runs about 10 days behind: use 30 days, not 7."
+    },
+    {
+      "n": 25,
+      "group": "companies",
+      "job": "Seed startups in Europe funded since 2025",
+      "actor": "b2bsearch/company-database-search",
+      "taskUrl": "https://apify.com/b2bsearch/company-database-search/examples/seed-startups-europe-funded-since-2025",
+      "title": "Seed-Stage Startups in Europe Funded Since 2025",
+      "input": {
+        "countryGroups": [
+          "eu"
+        ],
+        "hasFunding": true,
+        "fundingRounds": [
+          "pre_seed",
+          "seed"
+        ],
+        "fundedAfter": "2025-01-01",
+        "employeesMax": 50,
+        "maxResults": 100
+      },
+      "problem": "You need a list of companies, not people: by country, size and last funding round.",
+      "free": {
+        "kind": "preview",
+        "actor": "b2bsearch/company-database-search",
+        "input": {
+          "countryGroups": [
+            "eu"
+          ],
+          "hasFunding": true,
+          "fundingRounds": [
+            "pre_seed",
+            "seed"
+          ],
+          "fundedAfter": "2025-01-01",
+          "employeesMax": 50,
+          "previewOnly": true
+        },
+        "note": "Free. On 2026-10-31: 1,650 companies."
+      },
+      "returns": "Company cards: name, domain, headcount, industry, HQ and a funding block with the last round type and date.",
+      "next": "Their founders: task 18 with the domains, or task 31 in one run.",
+      "gotcha": "The eu group does not include the UK or Switzerland.",
+      "also": [
+        {
+          "actor": "b2bsearch/company-database-search",
+          "taskUrl": "https://apify.com/b2bsearch/company-database-search/examples/us-series-a-b-software-companies",
+          "title": "US Software Companies at Series A or B, 50–500 Employees",
+          "input": {
+            "countries": [
+              "us"
+            ],
+            "industries": [
+              "Software Development"
+            ],
+            "employeesMin": 50,
+            "employeesMax": 500,
+            "hasFunding": true,
+            "fundingRounds": [
+              "series_a",
+              "series_b"
+            ],
+            "maxResults": 100
+          }
+        },
+        {
+          "actor": "b2bsearch/company-database-search",
+          "taskUrl": "https://apify.com/b2bsearch/company-database-search/examples/manufacturing-companies-germany-50-500",
+          "title": "Manufacturing Companies in Germany with 50–500 Employees",
+          "input": {
+            "countries": [
+              "de"
+            ],
+            "industries": [
+              "Manufacturing"
+            ],
+            "employeesMin": 50,
+            "employeesMax": 500,
+            "maxResults": 100
+          }
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "group": "companies",
+      "job": "Companies like your best customers",
+      "actor": "b2bsearch/lookalike-company-finder",
+      "taskUrl": "https://apify.com/b2bsearch/lookalike-company-finder/examples/companies-similar-to-your-best-customers",
+      "title": "Find Companies Similar to Your Best Customers",
+      "input": {
+        "seedDomains": [
+          "linear.app",
+          "posthog.com"
+        ],
+        "maxPerSeed": 25,
+        "sameCountry": true,
+        "sameSize": true
+      },
+      "problem": "You know who buys and want more companies like them.",
+      "free": {
+        "kind": "lookup",
+        "note": "No count: at most seeds times maxPerSeed companies; seeds with no match are free."
+      },
+      "returns": "Company cards, each saying in matchedOn what it matched on (industry, country, size).",
+      "next": "Decision makers at the lookalikes: task 18.",
+      "gotcha": "Turn sameSize off to find bigger or smaller peers."
+    },
+    {
+      "n": 27,
+      "group": "companies",
+      "job": "Clean up a column of messy domains",
+      "actor": "b2bsearch/domain-to-company",
+      "taskUrl": "https://apify.com/b2bsearch/domain-to-company/examples/domain-to-company-name",
+      "title": "Domain to Company Name, Industry and Headcount",
+      "input": {
+        "domains": [
+          "https://www.notion.so/product",
+          "asana.com",
+          "WWW.GONG.IO",
+          "linear.app/features",
+          "miro.com"
+        ]
+      },
+      "problem": "A spreadsheet column holds URLs and domains in every form and you need the company behind each.",
+      "free": {
+        "kind": "lookup",
+        "note": "No count: at most the number of domains times the price per company found."
+      },
+      "returns": "One company card per domain: name, LinkedIn page, headcount, industry, country, HQ.",
+      "next": "Decision makers: task 18 with the cleaned domains.",
+      "gotcha": "When two companies claim a domain the row says so and costs nothing instead of guessing."
+    },
+    {
+      "n": 28,
+      "group": "clean",
+      "job": "Qualify inbound sign-ups by email",
+      "actor": "b2bsearch/reverse-email-lookup",
+      "taskUrl": "https://apify.com/b2bsearch/reverse-email-lookup/examples/qualify-inbound-signups-by-email",
+      "title": "Qualify Inbound Sign-Ups: Job Title and Company by Email",
+      "input": {
+        "emails": [
+          "jane.example@example.com",
+          "john.example@example.org",
+          "maria.example@example.net"
+        ],
+        "compact": true
+      },
+      "problem": "You get sign-ups and need to know which is a VP at a real company and which is a student.",
+      "free": {
+        "kind": "lookup",
+        "note": "No count: at most the number of emails times the price per person found; unmatched emails are free."
+      },
+      "returns": "With compact on: the person, title, company, seniority and profile link per email.",
+      "next": "The company card: task 27 with the employer's domain; the person who signs: task 18.",
+      "gotcha": "Personal Gmail addresses match too."
+    },
+    {
+      "n": 29,
+      "group": "clean",
+      "job": "Where do your customer contacts work now",
+      "actor": "b2bsearch/profile-lookup",
+      "taskUrl": "https://apify.com/b2bsearch/profile-lookup/examples/where-do-my-contacts-work-now",
+      "title": "Check Where Your Customer Contacts Work Now",
+      "input": {
+        "profileUrls": [
+          "satyanadella",
+          "https://www.linkedin.com/in/reidhoffman"
+        ],
+        "compact": true
+      },
+      "problem": "The people who signed your contracts may have moved: churn risk or a new account.",
+      "free": {
+        "kind": "lookup",
+        "note": "No count: at most the list length times the price per profile; not found is free."
+      },
+      "returns": "With compact on: current title and company per profile URL. A changed companyName is the signal.",
+      "next": "Emails at the new company: task 12.",
+      "gotcha": "Run it monthly on the same list."
+    },
+    {
+      "n": 30,
+      "group": "clean",
+      "job": "A CRM export with a bit of everything",
+      "actor": "b2bsearch/waterfall-lead-enrichment",
+      "taskUrl": "https://apify.com/b2bsearch/waterfall-lead-enrichment/examples/crm-export-to-emails-and-phones",
+      "title": "Enrich a CRM Export: Emails, Phones and Profiles",
+      "input": {
+        "csv": "https://api.apify.com/v2/key-value-stores/3QjjLxhysmMUbUbyX/records/sample-waterfall.csv",
+        "contacts": true
+      },
+      "problem": "Each row of the CSV carries a different key: an email, a profile URL, a name with a company, a domain.",
+      "free": {
+        "kind": "lookup",
+        "note": "No count: at most the row count times the price per found row; misses are free."
+      },
+      "returns": "Each row resolved by its strongest key to a profile (or a company for a bare domain), with contacts when contacts is on.",
+      "next": "People-only files: the bulk enrichment task.",
+      "gotcha": "csv takes a public URL of the file; up to 50,000 rows.",
+      "also": [
+        {
+          "actor": "b2bsearch/bulk-people-enrichment",
+          "taskUrl": "https://apify.com/b2bsearch/bulk-people-enrichment/examples/enrich-csv-of-emails-urls-and-names",
+          "title": "Enrich a CSV of Emails, Profile URLs and Names in Bulk",
+          "input": {
+            "csv": "https://api.apify.com/v2/key-value-stores/3QjjLxhysmMUbUbyX/records/sample-people.csv",
+            "contacts": true
+          }
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "group": "icp-search",
+      "job": "Recently funded US startups with their founders",
+      "actor": "b2bsearch/full-icp-search",
+      "taskUrl": "https://apify.com/b2bsearch/full-icp-search/examples/recently-funded-us-startups-founders",
+      "title": "Recently Funded Startups in the USA, with Founders' Emails",
+      "input": {
+        "find": "companies_and_people",
+        "previewOnly": false,
+        "companyCountries": [
+          "us"
+        ],
+        "fundingStages": [
+          "seed",
+          "series_a"
+        ],
+        "fundedAfter": "2025-07-01",
+        "companySizeMin": 11,
+        "companySizeMax": 200,
+        "seniority": [
+          "founder"
+        ],
+        "excludeJobTitles": [
+          "field cto",
+          "trainer",
+          "advisor",
+          "board"
+        ],
+        "maxCompanies": 25,
+        "peoplePerCompany": 2
+      },
+      "problem": "You want companies and the people to write to in one run: recently funded startups and their founders.",
+      "free": {
+        "kind": "preview",
+        "actor": "b2bsearch/full-icp-search",
+        "input": {
+          "find": "companies_and_people",
+          "companyCountries": [
+            "us"
+          ],
+          "fundingStages": [
+            "seed",
+            "series_a"
+          ],
+          "fundedAfter": "2025-07-01",
+          "companySizeMin": 11,
+          "companySizeMax": 200,
+          "seniority": [
+            "founder"
+          ],
+          "previewOnly": true
+        },
+        "note": "Free. On 2026-10-31: 1,102 companies."
+      },
+      "returns": "A company row with round, amount and date, then up to two founders with an email that reaches them today.",
+      "next": "Startups that are also hiring sellers: task 32.",
+      "gotcha": "Keep seniority founder and the advisor and board exclusions. Funding rounds in the data run to late November 2025."
+    },
+    {
+      "n": 32,
+      "group": "icp-search",
+      "job": "Funded startups hiring their first sales reps",
+      "actor": "b2bsearch/full-icp-search",
+      "taskUrl": "https://apify.com/b2bsearch/full-icp-search/examples/funded-startups-hiring-first-sales-reps",
+      "title": "Funded Startups Hiring Their First Sales Reps, with Founders",
+      "input": {
+        "find": "companies_and_people",
+        "previewOnly": false,
+        "companyCountries": [
+          "us"
+        ],
+        "fundingStages": [
+          "seed",
+          "series_a"
+        ],
+        "fundedAfter": "2025-07-01",
+        "companySizeMax": 200,
+        "hiringJobTitles": [
+          "account executive",
+          "sdr",
+          "sales development"
+        ],
+        "seniority": [
+          "founder"
+        ],
+        "excludeJobTitles": [
+          "advisor",
+          "board"
+        ],
+        "maxCompanies": 25,
+        "peoplePerCompany": 2,
+        "jobsPerCompany": 1
+      },
+      "problem": "A seed or Series A startup posting its first AE or SDR jobs is building a sales team now.",
+      "free": {
+        "kind": "preview",
+        "actor": "b2bsearch/full-icp-search",
+        "input": {
+          "find": "companies_and_people",
+          "companyCountries": [
+            "us"
+          ],
+          "fundingStages": [
+            "seed",
+            "series_a"
+          ],
+          "fundedAfter": "2025-07-01",
+          "companySizeMax": 200,
+          "hiringJobTitles": [
+            "account executive",
+            "sdr",
+            "sales development"
+          ],
+          "seniority": [
+            "founder"
+          ],
+          "previewOnly": true
+        },
+        "note": "Free. On 2026-10-31: 39 companies, 96 postings."
+      },
+      "returns": "A company row with round and open jobs, up to two founders with an email, and one matching posting each.",
+      "next": "Mobile numbers for the founders: task 10.",
+      "gotcha": "hiringJobTitles needs a country. Job data runs about 10 days behind."
+    }
+  ]
+}
