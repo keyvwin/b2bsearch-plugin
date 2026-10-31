@@ -86,4 +86,4 @@ People Search names some filters differently from the leads tools:
 `seniority`, `countries`, `countryGroups`, `excludeCountries`, `companyDomains` and
 `excludeCompanyDomains` keep their names.
 
-Source: [recipes/tasks.json](https://github.com/b2bsearch/b2bsearch-plugin/blob/main/recipes/tasks.json).
+Source: [recipes/tasks.json](https://github.com/keyvwin/b2bsearch-plugin/blob/main/recipes/tasks.json).

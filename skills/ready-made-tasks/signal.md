@@ -126,4 +126,4 @@ Watch out: Write the city with its country ("Berlin, Germany"); a bare "Berlin" 
 
 Next: Decision makers at those employers: task 18 with their domains.
 
-Source: [recipes/tasks.json](https://github.com/b2bsearch/b2bsearch-plugin/blob/main/recipes/tasks.json).
+Source: [recipes/tasks.json](https://github.com/keyvwin/b2bsearch-plugin/blob/main/recipes/tasks.json).

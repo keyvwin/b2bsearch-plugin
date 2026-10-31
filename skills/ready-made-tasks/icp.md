@@ -150,4 +150,4 @@ Variant, [Real Estate Agents and Brokers in the US with Mobile Numbers](https://
 {"jobTitles":["realtor","real estate agent","real estate broker","broker associate"],"industries":["Real Estate"],"countries":["us"],"maxResults":50}
 ```
 
-Source: [recipes/tasks.json](https://github.com/b2bsearch/b2bsearch-plugin/blob/main/recipes/tasks.json).
+Source: [recipes/tasks.json](https://github.com/keyvwin/b2bsearch-plugin/blob/main/recipes/tasks.json).

@@ -90,4 +90,4 @@ Watch out: includePersonalEmails true is what adds the personal addresses.
 
 Next: Candidates first: People Search with mode people (task 7).
 
-Source: [recipes/tasks.json](https://github.com/b2bsearch/b2bsearch-plugin/blob/main/recipes/tasks.json).
+Source: [recipes/tasks.json](https://github.com/keyvwin/b2bsearch-plugin/blob/main/recipes/tasks.json).

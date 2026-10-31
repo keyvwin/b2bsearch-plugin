@@ -72,4 +72,4 @@ Watch out: When two companies claim a domain the row says so and costs nothing i
 
 Next: Decision makers: task 18 with the cleaned domains.
 
-Source: [recipes/tasks.json](https://github.com/b2bsearch/b2bsearch-plugin/blob/main/recipes/tasks.json).
+Source: [recipes/tasks.json](https://github.com/keyvwin/b2bsearch-plugin/blob/main/recipes/tasks.json).

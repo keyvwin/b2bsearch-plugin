@@ -48,4 +48,4 @@ Watch out: hiringJobTitles needs a country. Job data runs about 10 days behind.
 
 Next: Mobile numbers for the founders: task 10.
 
-Source: [recipes/tasks.json](https://github.com/b2bsearch/b2bsearch-plugin/blob/main/recipes/tasks.json).
+Source: [recipes/tasks.json](https://github.com/keyvwin/b2bsearch-plugin/blob/main/recipes/tasks.json).

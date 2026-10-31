@@ -10,7 +10,7 @@ import { readFileSync, writeFileSync, mkdirSync, readdirSync, existsSync, unlink
 import { join } from 'node:path';
 
 const HUB = new URL('..', import.meta.url).pathname;
-const SOURCE = 'https://github.com/b2bsearch/b2bsearch-plugin/blob/main/recipes/tasks.json';
+const SOURCE = 'https://github.com/keyvwin/b2bsearch-plugin/blob/main/recipes/tasks.json';
 const MARK = '<!-- generated from b2bsearch/b2bsearch-plugin recipes; edit recipes/ there -->';
 const data = JSON.parse(readFileSync(join(HUB, 'recipes/tasks.json'), 'utf8'));
 const byN = new Map(data.tasks.map((t) => [t.n, t]));

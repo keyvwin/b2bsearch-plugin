@@ -126,4 +126,4 @@ Watch out: Domains without evidence are free.
 
 Next: The real address of a named person: work email by name and domain.
 
-Source: [recipes/tasks.json](https://github.com/b2bsearch/b2bsearch-plugin/blob/main/recipes/tasks.json).
+Source: [recipes/tasks.json](https://github.com/keyvwin/b2bsearch-plugin/blob/main/recipes/tasks.json).
