@@ -171,6 +171,20 @@
         "decision-makers"
       ],
       "skillDescription": "Tested inputs for four account-signal jobs, each a public Apify task page: new senior hires at target accounts with the company they came from, former employees of a customer or competitor and where they work now, companies like your best customers, and where your customer contacts work now. Start from the closest job's input, run the free count or preview first, state the most the run can cost and run with a spend cap. Use for \"new hires at these accounts\", \"job changes\", \"champions who moved\", \"lookalike companies\", \"ex-employees of X\"."
+    },
+    "phone-number-finder": {
+      "commands": [
+        "call-list",
+        "hiring-to-calls"
+      ],
+      "tasks": [
+        6,
+        10,
+        11,
+        20,
+        30
+      ],
+      "skillDescription": "Tested inputs for five phone jobs, each a public Apify task page: US sales leaders with a mobile number and a live email on every row, mobile numbers from profile URLs, numbers for CRM contacts that have only an email, companies hiring account executives with the sales leaders behind the hire, and a CRM export enriched with emails and phones. Use when the user wants a call list, direct dials or mobile numbers for people they already have."
     }
   },
   "tasks": [

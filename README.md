@@ -22,15 +22,16 @@ report what was skipped. See [skills/](skills/).
 The same data, split by job. Each one is a separate repo with its own skills and a
 smaller tool list, so the agent picks the right tool faster.
 
-| Plugin | For | Cursor Directory |
-|---|---|---|
-| [Full ICP Search](https://github.com/keyvwin/full-icp-search) | size an ideal customer profile for free, then people, leads with emails and mobile numbers, decision makers, companies, job postings | [full-icp-search](https://cursor.directory/plugins/full-icp-search) |
-| [Contact Finder](https://github.com/keyvwin/contact-finder) | emails and phone numbers for people you already have, reverse email lookup, work email by name and domain, bulk CSV enrichment | [contact-finder](https://cursor.directory/plugins/contact-finder) |
-| [B2B Leads Finder](https://github.com/keyvwin/b2b-leads-finder) | lead lists with emails and phones, saved-search import by URL, weekly top-ups without repeats | [b2b-leads-finder](https://cursor.directory/plugins/b2b-leads-finder) |
-| [Hiring Signals](https://github.com/keyvwin/hiring-signals) | who is hiring for a role, postings that mention a technology, decision makers at hiring companies | [hiring-signals](https://cursor.directory/plugins/hiring-signals) |
-| [Account Signals](https://github.com/keyvwin/account-signals) | new hires and job changes at target accounts, where former customer staff work now, lookalike companies | [account-signals](https://cursor.directory/plugins/account-signals) |
+| Plugin | For |
+|---|---|
+| [Full ICP Search](https://github.com/keyvwin/full-icp-search) | size an ideal customer profile for free, then people, leads with emails and mobile numbers, decision makers, companies, job postings |
+| [Contact Finder](https://github.com/keyvwin/contact-finder) | emails and phone numbers for people you already have, reverse email lookup, work email by name and domain, bulk CSV enrichment |
+| [Phone Number Finder](https://github.com/keyvwin/phone-number-finder) | verified mobile numbers by profile URL, email or name and domain, call lists with a number and an email on every row, hiring companies to a call list |
+| [B2B Leads Finder](https://github.com/keyvwin/b2b-leads-finder) | lead lists with emails and phones, saved-search import by URL, weekly top-ups without repeats |
+| [Hiring Signals](https://github.com/keyvwin/hiring-signals) | who is hiring for a role, postings that mention a technology, decision makers at hiring companies |
+| [Account Signals](https://github.com/keyvwin/account-signals) | new hires and job changes at target accounts, where former customer staff work now, lookalike companies |
 
-In Claude Code all six install from this marketplace:
+In Claude Code all seven install from this marketplace:
 
 ```bash
 claude plugin marketplace add keyvwin/b2bsearch-plugin

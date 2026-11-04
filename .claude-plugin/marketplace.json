@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "b2bsearch plugins: B2B people, company, contact and hiring data as agent tools, paid per row on Apify",
-    "version": "1.2.0"
+    "version": "1.3.0"
   },
   "plugins": [
     {
@@ -17,7 +17,7 @@
       "name": "full-icp-search",
       "source": {
         "source": "github",
-        "repo": "b2bsearch/full-icp-search"
+        "repo": "keyvwin/full-icp-search"
       },
       "description": "Full ICP Search: size an ideal customer profile for free, then people and leads with emails, mobile numbers, decision makers, companies and job postings"
     },
@@ -25,15 +25,23 @@
       "name": "contact-finder",
       "source": {
         "source": "github",
-        "repo": "b2bsearch/contact-finder"
+        "repo": "keyvwin/contact-finder"
       },
       "description": "Contact Finder: emails and phone numbers for people you already have, reverse email lookup, work email by name and domain, bulk CSV enrichment"
+    },
+    {
+      "name": "phone-number-finder",
+      "source": {
+        "source": "github",
+        "repo": "keyvwin/phone-number-finder"
+      },
+      "description": "Phone Number Finder: verified mobile numbers by profile URL, email or name and domain, call lists with a number and an email on every row, hiring companies to a call list"
     },
     {
       "name": "b2b-leads-finder",
       "source": {
         "source": "github",
-        "repo": "b2bsearch/b2b-leads-finder"
+        "repo": "keyvwin/b2b-leads-finder"
       },
       "description": "B2B Leads Finder: lead lists with emails and phones, saved-search import by URL, weekly top-ups without repeats"
     },
@@ -41,7 +49,7 @@
       "name": "hiring-signals",
       "source": {
         "source": "github",
-        "repo": "b2bsearch/hiring-signals"
+        "repo": "keyvwin/hiring-signals"
       },
       "description": "Hiring Signals: who is hiring for a role, job postings that mention a technology, decision makers at hiring companies, weekly watch"
     },
@@ -49,7 +57,7 @@
       "name": "account-signals",
       "source": {
         "source": "github",
-        "repo": "b2bsearch/account-signals"
+        "repo": "keyvwin/account-signals"
       },
       "description": "Account Signals: new hires and job changes at target accounts, where former customer staff work now, lookalike companies, email format"
     }
