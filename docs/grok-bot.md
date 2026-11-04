@@ -29,16 +29,23 @@ from a repository yet, so paste the playbook into the bot's instructions:
    `skills/people-search/SKILL.md` for list building or
    `skills/jobs-and-hiring-signals/SKILL.md` for hiring signals.
 
-## A prospecting desk in one bot
+## Three ready bots, one file each
 
-[`grok-bot/prospecting-desk.txt`](../grok-bot/prospecting-desk.txt) turns a new bot into
-the b2bsearch Prospecting Desk. It runs on the official Apify plugin, so it needs no
-custom server:
+Each file in [`grok-bot/`](../grok-bot/) turns a new bot into a desk that runs on the
+official Apify plugin, so it needs no custom server:
+
+| File | Bot | What it does |
+|---|---|---|
+| `prospecting-desk.txt` | b2bsearch Prospecting Desk | free market sizing, people lists, leads with emails, decision makers by domain, company lists, hiring signals |
+| `call-list-desk.txt` | b2bsearch Call List Desk | call lists with verified mobile numbers from filters, from a list you already have, or from a hiring signal; a call brief per row |
+| `hiring-signals-watch.txt` | b2bsearch Hiring Signals Watch | who is hiring for a role or a technology, hiring pace, decision makers behind the hire, new senior hires, a Monday watch that reports only what is new |
 
 1. Create a bot (**+ → Create a Bot**) and add the Apify plugin
    (**Settings → Plugins → Apify → Add**, approve the Apify sign-in).
-2. Paste the file as the first message. The bot saves nine skills and two routines
-   (off until you turn them on) and starts with a free count of your market.
+2. Paste the file as the first message. The bot saves the skills and routines (routines
+   stay off until you turn them on) and starts with a free count or preview.
+3. To share it: bot name → **Share → Create a copy → Publish → Copy link**. The link
+   carries the skills, routines and the Apify plugin; the recipient signs in to Apify once.
 
 Every paid run carries a spend cap, and nothing past the free count runs without a yes.
 

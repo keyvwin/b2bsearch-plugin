@@ -80,10 +80,13 @@ browser window that opens. No API key to paste.
 
 Today, before the listing, two ways:
 
-- **Prospecting Desk template.** A ready bot on the official Apify plugin: free market
-  sizing, lead lists, decision makers, hiring signals, weekly routines. Paste
-  [grok-bot/prospecting-desk.txt](grok-bot/prospecting-desk.txt) as the first message to a
-  new bot, then add the Apify plugin (**Settings → Plugins → Apify → Add**).
+- **Ready bots on the official Apify plugin.** Paste one file as the first message to a
+  new bot, then add the Apify plugin (**Settings → Plugins → Apify → Add**):
+  [Prospecting Desk](grok-bot/prospecting-desk.txt) (free market sizing, lead lists,
+  decision makers, company lists), [Call List Desk](grok-bot/call-list-desk.txt) (verified
+  mobile numbers from filters, from your own list, or from a hiring signal, with a call
+  brief) and [Hiring Signals Watch](grok-bot/hiring-signals-watch.txt) (who is hiring,
+  decision makers behind the hire, new senior hires, a Monday watch).
 - **Custom MCP server.** Ask your bot to add it; the exact prompt is in
   [docs/grok-bot.md](docs/grok-bot.md).
 
@@ -156,7 +159,7 @@ commands/*.md               slash commands (generated)
 recipes/                    tasks.json and the command templates: edit these
 scripts/build-recipes.mjs   builds the skill, commands and README block of all six plugins
 docs/grok-bot.md            connect today, without the listing
-grok-bot/prospecting-desk.txt  setup message for the Prospecting Desk bot
+grok-bot/*.txt              setup messages for the three ready bots (Prospecting Desk, Call List Desk, Hiring Signals Watch)
 ```
 
 MIT licence. Issues and requests: the GitHub issue tracker of this repository.
