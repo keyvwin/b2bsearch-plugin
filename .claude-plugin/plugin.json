@@ -1,6 +1,6 @@
 {
   "name": "b2bsearch",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "B2B people and company data as tools for Claude: count a segment for free, then pull people with live emails, decision makers by website domain, company lists with funding, work emails by name and domain, and job postings as hiring signals. Runs the b2bsearch Actors through Apify's hosted MCP server; you pay per row on your own Apify account, with 500 free rows a month per Actor.",
   "author": {
     "name": "b2bsearch",

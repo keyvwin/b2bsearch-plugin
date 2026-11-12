@@ -13,12 +13,9 @@ plugins. Edit here, then rebuild; never edit the generated files in the plugins.
 - `commands/*.md`: command templates. `{{task N}}` expands to job N, `{{mapping}}` to the
   filter-name table, `{{rules}}` to the spend and safety rules every command shares.
 
-```bash
-# from this repository, with the plugin repositories cloned next to it
-node scripts/build-recipes.mjs . ../full-icp-search ../b2b-leads-finder ../contact-finder ../hiring-signals ../account-signals
-node scripts/build-recipes.mjs --check . ../full-icp-search ../b2b-leads-finder ../contact-finder ../hiring-signals ../account-signals
-node scripts/build-recipes.mjs --links   # every task page answers 200
-```
+The build script is a maintainers' tool and is kept outside this repository: a plugin
+listed in the Claude directory may hold only text files and images. Maintainers run it
+from their own checkout against this folder.
 
 A job's input changes only when its task page changes: copy the new input from the page,
 run the free step once, and update `checked`.

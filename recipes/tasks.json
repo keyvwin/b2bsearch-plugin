@@ -1,5 +1,5 @@
 {
-  "about": "Ready-made b2bsearch tasks: tested Apify task inputs grouped by the problem you walk in with. Numbers 1-30 follow the article https://dev.to/kevinhall/30-ready-made-b2b-data-tasks-on-apify-from-lead-lists-to-call-lists-4e21; 31-32 came after it. Inputs are copied from the live task pages; counts are free previews of 2026-10-31. scripts/build-recipes.mjs turns this file into the ready-made-tasks skill and the slash commands of each plugin.",
+  "about": "Ready-made b2bsearch tasks: tested Apify task inputs grouped by the problem you walk in with. Numbers 1-30 follow the article https://dev.to/kevinhall/30-ready-made-b2b-data-tasks-on-apify-from-lead-lists-to-call-lists-4e21; 31-32 came after it. Inputs are copied from the live task pages; counts are free previews of 2026-10-31. A maintainer build script turns this file into the ready-made-tasks skill and the slash commands of each plugin.",
   "checked": "2026-10-31",
   "groups": {
     "icp": "You have an ICP and no list",

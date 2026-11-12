@@ -28,8 +28,6 @@ b2bsearch Actors pre-selected, plus skills and commands that are plain text.
   names or profile links. It goes to Apify and to the b2bsearch Actors that run in your
   Apify account, which answer from the b2bsearch data service. Nothing else is sent.
 - Results are stored as datasets in your Apify account, under its retention settings.
-- `scripts/build-recipes.mjs` is a maintainer script that builds the command files. The
-  plugin never runs it.
 
 ## Focused plugins
 
@@ -175,7 +173,6 @@ mcp.json / .mcp.json        the hosted MCP server
 skills/*/SKILL.md           seven skills (ready-made-tasks is generated)
 commands/*.md               slash commands (generated)
 recipes/                    tasks.json and the command templates: edit these
-scripts/build-recipes.mjs   builds the skill, commands and README block of all six plugins
 docs/grok-bot.md            connect today, without the listing
 grok-bot/*.txt              setup messages for the three ready bots (Prospecting Desk, Call List Desk, Hiring Signals Watch)
 ```
