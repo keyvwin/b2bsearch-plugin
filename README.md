@@ -1,9 +1,9 @@
-# b2bsearch for Grok Bot, Cursor and Claude Code
+# b2bsearch: B2B people and company data as agent tools
 
 <img src="assets/logo.png" width="64" height="64" alt="b2bsearch logo">
 
-B2B people and company data as agent tools. Your bot counts a segment for free, then
-pulls the rows it needs and pays per row through your Apify account.
+For Claude, Cursor and Grok Bot. Your agent counts a segment for free, then pulls the
+rows it needs and pays per row through your Apify account.
 
 | Tool | What it does |
 |---|---|
@@ -16,6 +16,20 @@ pulls the rows it needs and pays per row through your Apify account.
 
 Seven skills teach the agent the method: size first, cap the spend, keep lists clean,
 report what was skipped. See [skills/](skills/).
+
+## What the plugin connects to and sends
+
+The plugin has no code of its own: no hooks, no local server, nothing that runs on your
+machine. It adds one remote MCP server, Apify's hosted server at `mcp.apify.com` with six
+b2bsearch Actors pre-selected, plus skills and commands that are plain text.
+
+- You sign in to Apify in the browser (OAuth). The plugin never sees a token.
+- What leaves your chat is the input of a tool call: search filters, company domains,
+  names or profile links. It goes to Apify and to the b2bsearch Actors that run in your
+  Apify account, which answer from the b2bsearch data service. Nothing else is sent.
+- Results are stored as datasets in your Apify account, under its retention settings.
+- `scripts/build-recipes.mjs` is a maintainer script that builds the command files. The
+  plugin never runs it.
 
 ## Focused plugins
 
@@ -102,14 +116,17 @@ With the skills: import this repository as a team marketplace
 folder to `~/.cursor/plugins/local/b2bsearch` and reload the window. Connect the
 `b2bsearch` MCP server when Cursor asks; the browser opens the Apify sign-in.
 
-### Claude Code
+### Claude
+
+In Claude Code:
 
 ```bash
 claude plugin marketplace add keyvwin/b2bsearch-plugin
 claude plugin install b2bsearch@b2bsearch
 ```
 
-Run `/mcp` to sign in to the `b2bsearch` server.
+Run `/mcp` to sign in to the `b2bsearch` server. You need an Apify account; the free plan
+is enough to try every tool.
 
 ### Any other MCP client
 
