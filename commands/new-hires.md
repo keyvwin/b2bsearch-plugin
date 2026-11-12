@@ -1,6 +1,6 @@
 ---
 name: new-hires
-description: Find new senior hires at your target accounts by company domain, with the start month, new title and the company and title they came from: a job change signal for outbound. Free count of the hires first, then the rows after your yes, with a spend cap.
+description: "Find new senior hires at your target accounts by company domain, with the start month, new title and the company and title they came from: a job change signal for outbound. Free count of the hires first, then the rows after your yes, with a spend cap."
 argument-hint: <target account domains, levels, months back>
 ---
 

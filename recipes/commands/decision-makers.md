@@ -1,7 +1,7 @@
 ---
 name: decision-makers
 description: Find the decision makers at a list of companies by website domain, ranked per company (founder and CEO first, or the leaders of one function such as marketing, engineering or sales), with an email that reaches them today where one is on record. States the most the run can cost and runs after your yes, with a spend cap.
-argument-hint: <company domains, and which people: founders, CEO, marketing, engineering...>
+argument-hint: "<company domains, and which people: founders, CEO, marketing, engineering...>"
 ---
 
 # Decision makers by company domain
