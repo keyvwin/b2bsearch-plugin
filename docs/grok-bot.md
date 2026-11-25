@@ -49,6 +49,10 @@ official Apify plugin, so it needs no custom server:
 
 Every paid run carries a spend cap, and nothing past the free count runs without a yes.
 
+The Apify plugin brings its own `apify` agent and scraping skills, and for lead requests
+they pick other Actors from their own list. Each file tells the bot to keep to the
+b2bsearch Actors, so ask the bot directly; typing `@apify` is not needed.
+
 ## What the marketplace listing changes
 
 Nothing in the tools. The listing adds one-click **Connect** in Settings → Plugins, the
